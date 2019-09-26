@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GCR SHOP Automation Test Suite">
+<listeners>
+		<listener class-name="com.qa.Extentreportlistener.extentreportlistener" />
+	</listeners>
+	
+
+	<test name="GCR SHOP Test Cases">
+		<classes>
+			<class name="com.gcr.qa.testcases.loginpagetest"></class>
+			<class name="com.gcr.qa.testcases.homepagetest"></class>
+			<!-- <class name="com.gcr.qa.testcases.myaccounttest"></class> -->
+
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,4 @@
+com\gcr\qa\testcases\myaccounttest.class
+com\gcr\qa\testcases\loginpagetest.class
+com\gcr\qa\testcases\homepagetest.class
+com\gcr\qa\testcases\signuptest.class
